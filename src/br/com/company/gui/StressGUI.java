@@ -176,7 +176,7 @@ private JTabbedPane getJTabbedPane() {
 	private JTabbedPane getJTabbedPane2() {
 		if (jTabbedPane2 == null) {
 			jTabbedPane2 = new JTabbedPane();
-			jTabbedPane2.addTab("ConfiguraÁ„o", null, getPnlJMS(), null);
+			jTabbedPane2.addTab("Configura√ß√£o", null, getPnlJMS(), null);
 		}
 		return jTabbedPane2;
 	}
@@ -319,7 +319,7 @@ private JTabbedPane getJTabbedPane() {
 			txtHost = new JTextField();
 			txtHost.setName("host");
 			txtHost.setBounds(new Rectangle(164, 68, 226, 20));
-			txtHost.setToolTipText("Informe o Host ou IP da m·quina onde esta o MQ.");
+			txtHost.setToolTipText("Informe o Host ou IP da m√°quina onde esta o MQ.");
 			txtHost.setText(myPreferences.get(txtHost.getName(), "localhost"));
 		}
 		return txtHost;
@@ -978,7 +978,7 @@ private JTabbedPane getJTabbedPane() {
 	 */
 	private void initialize() {
 		this.setContentPane(getJContentPane());
-		this.setTitle("Teste Stress eDetran");
+		this.setTitle("Stress Test MQ/Broker");
 		this.setBounds(new Rectangle(0, 0, 776, 525));
 	}
 
