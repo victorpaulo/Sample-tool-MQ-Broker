@@ -1,3 +1,10 @@
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
 package br.com.company.servico;
 
 import java.io.BufferedReader;
@@ -79,7 +86,7 @@ public abstract class MessageServiceStrategy {
 	
 	/**
 	 * Gera uma marca com data e hora correntes 
-	 * no fuso hor·rio de BrasÌlia sem hor·rio de ver„o.<br>
+	 * no fuso hor√°rio de Bras√≠lia sem hor√°rio de ver√£o.<br>
 	 * Formato: <pre>yyyy/MM/dd HH:mm:ssss</pre>
 	 * 
 	 * @return Data e hora atuais
