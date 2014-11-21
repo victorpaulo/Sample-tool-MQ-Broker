@@ -1,12 +1,20 @@
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
 package br.com.company.bean;
 
 /*
   Pos.Inicial	Pos.Final	Tamanho	Formato	Elemento de dados
-	001			004			  04	  AN	CÛdigo de transaÁ„o
-	005			012			  08	  N		Seq¸Íncia da transaÁ„o
-	013			027			  15	  AN	IP da m·quina que est· enviando a string
-	028			035			  08	  N		Data da m·quina no formato aaaammdd
-	036			041			  06	  N		Hora da m·quina no formato hhmmss
+	001			004			  04	  AN	C√≥digo de transa√ß√£o
+	005			012			  08	  N		Seq√º√™ncia da transa√ß√£o
+	013			027			  15	  AN	IP da m√°quina que est√° enviando a string
+	028			035			  08	  N		Data da m√°quina no formato aaaammdd
+	036			041			  06	  N		Hora da m√°quina no formato hhmmss
   
  */
 
